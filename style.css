@@ -1,0 +1,22 @@
+em {
+font-weight: normal;
+} 
+
+td:first-child 
+	{
+	color: red;
+	}
+td:first-child  + td  + td
+	{
+	color: blue;
+	}
+	
+tr:nth-child(2n+1)
+	{
+	background-color: lime;
+	}
+	
+tr:nth-child(2n)
+	{
+	background-color: LightBlue ;
+	}
