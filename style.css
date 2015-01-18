@@ -20,3 +20,7 @@ tr:nth-child(2n)
 	{
 	background-color: LightBlue ;
 	}
+	
+dt:hover + dd
+{ background: purple 
+}
